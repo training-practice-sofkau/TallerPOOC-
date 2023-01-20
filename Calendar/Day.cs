@@ -1,5 +1,7 @@
 ﻿
 
+using System.Collections.Generic;
+
 namespace Calendar
 {
     internal class Day
@@ -7,7 +9,7 @@ namespace Calendar
 
         private string nameDay;
         private int dayNumber;
-        private Event listEvent;
+        private  List<Event> listEvent;
 
       
         public string Name {
@@ -21,10 +23,9 @@ namespace Calendar
             get { return dayNumber; }
 
             set { dayNumber  = value; }
-        
         }
 
-        public Event ListEvent {
+        public List<Event> ListEvent {
 
             get { return listEvent; }
 
@@ -32,7 +33,7 @@ namespace Calendar
         
         }
 
-        public Day(int dayNumber, Event listEvent, string name)
+        public Day(int dayNumber, List<Event> listEvent, string name)
         {
 
             Name = name;
