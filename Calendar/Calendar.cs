@@ -11,7 +11,6 @@ namespace Calendar
     {
 
         private string month;
-        private int dayMonth;
         private List<Day> listDay;
 
 
@@ -20,11 +19,7 @@ namespace Calendar
             get { return month; }
             set { month = value; }
         }
-        public int DayMonth
-        {
-            get { return dayMonth; }
-            set { dayMonth = value; }
-        }
+       
 
         public List<Day> ListDay
         {
@@ -33,17 +28,13 @@ namespace Calendar
         }
 
 
-        public Calendar(string month,int dayMonth, List<Day>  listDay)
+        public Calendar(string month, List<Day>  listDay)
         {
             Month= month;
-            DayMonth= dayMonth;
+           
             ListDay = listDay;
         }
 
-        public Calendar()
-        {
-        }
-    
     
     }
 }

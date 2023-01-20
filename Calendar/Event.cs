@@ -8,26 +8,26 @@ namespace Calendar
 {
     internal class Event
     {
-        private string _name;
-        private DateTime _startDate;
-        private DateTime _endDate;
+        private string name;
+        private DateTime startDate;
+        private DateTime endDate;
 
         public string Name
         {
-            get { return _name; }
-            set { _name = value; }
+            get { return name; }
+            set { name = value; }
         }
 
         public DateTime StartDate
         {
-            get { return _startDate; }
-            set { _startDate = value; }
+            get { return startDate; }
+            set { startDate = value; }
         }
 
         public DateTime EndDate
         {
-            get { return _endDate; }
-            set { _endDate = value; }
+            get { return endDate; }
+            set { endDate = value; }
         }
 
         public Event(string name, DateTime startDate, DateTime endDate)
@@ -37,9 +37,9 @@ namespace Calendar
             EndDate = endDate;
         }
 
-        public Event()
+        public override string ToString()
         {
-
+            return $"Evento con nombre {Name} tiene como fecha de inicio el: {StartDate} y tiene como fin el: {EndDate}";
         }
     }
 }
