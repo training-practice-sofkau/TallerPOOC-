@@ -41,5 +41,8 @@ namespace Calendar
             ListEvent = listEvent;
         }
 
+        public Day()
+        {
+        }
     }
 }

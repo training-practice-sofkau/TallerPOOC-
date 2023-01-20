@@ -39,7 +39,10 @@ namespace Calendar
             DayMonth= dayMonth;
             ListDay = listDay;
         }
-    
+
+        public Calendar()
+        {
+        }
     
     
     }

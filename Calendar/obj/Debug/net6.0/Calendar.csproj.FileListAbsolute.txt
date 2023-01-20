@@ -1,0 +1,15 @@
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.exe
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.deps.json
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.runtimeconfig.json
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.dll
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.pdb
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.csproj.AssemblyReference.cache
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.AssemblyInfoInputs.cache
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.AssemblyInfo.cs
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.csproj.CoreCompileInputs.cache
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.dll
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\obj\Debug\net6.0\refint\Calendar.dll
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.pdb
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.genruntimeconfig.cache
+G:\My Drive\SOFKATRAING\Calendar\TallerPOOC-\Calendar\obj\Debug\net6.0\ref\Calendar.dll
