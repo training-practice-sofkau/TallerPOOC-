@@ -33,6 +33,7 @@ namespace Calendar
         
         }
 
+
         public Day(int dayNumber, List<Event> listEvent, string name)
         {
 
@@ -41,5 +42,9 @@ namespace Calendar
             ListEvent = listEvent;
         }
 
+        public override string? ToString()
+        {
+            return $"el {Name}  {DayNumber} tienes estos eventos";
+        }
     }
 }

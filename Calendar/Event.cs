@@ -39,7 +39,7 @@ namespace Calendar
 
         public override string ToString()
         {
-            return $"Evento con nombre {Name} tiene como fecha de inicio el: {StartDate} y tiene como fin el: {EndDate}";
+            return $"  '{Name}' inicia el: {StartDate.ToLongDateString()} y finaliza: {EndDate.ToLongDateString()}";
         }
     }
 }

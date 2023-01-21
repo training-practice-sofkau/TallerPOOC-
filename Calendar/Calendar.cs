@@ -35,6 +35,15 @@ namespace Calendar
             ListDay = listDay;
         }
 
-    
+        public override string ToString()
+        {
+            
+            return $"El mes de {Month} tienes estos dias con evento: {ListDay} ";
+
+        }
+
+
+
+
     }
 }
