@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calendar
 {
-    internal class Program
+    internal class Calendar
     {
-        private static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
     }
 }

@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Calendar
 {
-    internal class Program
+    internal class Day
     {
-        private static void Main(string[] args)
+
+        public Dictionary<DateTime, List<Event>> _days;
+
+        public Day()
         {
-            Console.WriteLine("Hello World!");
+            _days = new Dictionary<DateTime, List<Event>>();
         }
+
+
     }
 }
