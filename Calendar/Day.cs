@@ -9,32 +9,14 @@ namespace Calendar
 {
 	internal class Day : Event
 	{
-		private List<Event> eventos = new List<Event>();
 		private List<Event> eventosFiltrados;
 		private DateTime diaActual;
 
-		public void agregarEvento()
-		{
-			string nombre = "";
-			DateTime fechaInicio = DateTime.Now;
-			DateTime fechaFinal = DateTime.Now;
-
-			Console.WriteLine("Digite el nombre del evento: ");
-			nombre = Console.ReadLine();
-			Console.WriteLine("Digite el fecha de inicio del evento en fomato AAAA/MM/DD: ");
-			fechaInicio = Convert.ToDateTime(Console.ReadLine());
-			Console.WriteLine("Digite el fecha de final del evento en fomato AAAA/MM/DD: ");
-			fechaFinal = Convert.ToDateTime(Console.ReadLine());
-
-			Day nuevoEvento = new(nombre, fechaInicio, fechaFinal);
-			eventos.Add(nuevoEvento);
-		}
-
-		public List<Event> mostrarEventos()
+		public List<Event> mostrarEventos(List<Event> lista)
 		{
 			eventosFiltrados = new List<Event>();
 			diaActual = DateTime.Now;
-			foreach (Day evento in eventos)
+			foreach (Event evento in lista)
 			{
 				if (evento.StartDate.DayOfYear == diaActual.DayOfYear && evento.StartDate.Year == diaActual.Year)
 				{
@@ -42,10 +24,6 @@ namespace Calendar
 				}
 			}
 			return eventosFiltrados;
-		}
-
-		public Day(string name, DateTime startDate, DateTime endDate) : base(name, startDate, endDate)
-		{
 		}
 		public Day()
 		{

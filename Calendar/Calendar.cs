@@ -8,14 +8,12 @@ namespace Calendar
 {
 	internal class Calendar : Event
 	{
-		private List<Calendar> diasFiltrados;
+		private List<Event> diasFiltrados;
 		private List<Event> eventos = new List<Event>();
-		private DateTime diaActual;
 	
-		public List<Calendar> filtrarDias(int mes, int año)
+		public List<Event> filtrarDias(int mes, int año)
 		{
-			diasFiltrados = new List<Calendar>();
-			diaActual = DateTime.Now;
+			diasFiltrados = new List<Event>();
 			foreach (Calendar evento in eventos)
 			{
 				if (evento.StartDate.Month == mes && evento.StartDate.Year == año)

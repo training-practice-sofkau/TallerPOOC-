@@ -52,7 +52,7 @@ namespace Calendar
 				}
 				else if (opcion == 2)
 				{
-					mostrarEventos(dia.mostrarEventos());
+					mostrarEventos(dia.mostrarEventos(calendario.mostrarEventos()));
 				}
 				else if (opcion == 3)
 				{
@@ -73,11 +73,11 @@ namespace Calendar
 
 		}
 
-		public void mostrarDias(List<Calendar> calendario)
+		public void mostrarDias(List<Event> calendario)
 		{
-			foreach (Calendar evento in calendario)
+			foreach (Event evento in calendario)
 			{
-				Console.WriteLine("El evento {0} esta agendado", evento.Name);
+				Console.WriteLine("El evento {0} esta agendado para el {1} de este mes. ", evento.Name,evento.StartDate.Day);
 			}
 		}
 		
@@ -85,7 +85,7 @@ namespace Calendar
 		{
 			Console.WriteLine("-----------------------  Eventos del dia ------------------------------");
 
-			foreach (Day evento in eventos)
+			foreach (Event evento in eventos)
 			{
 				Console.WriteLine("El evento {0}", evento.Name);
 				Console.WriteLine("Inicia el {0}", evento.StartDate.Date);
