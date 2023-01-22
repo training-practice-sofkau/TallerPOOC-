@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Globalization;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,7 +11,6 @@ namespace Calendar
 {
 	class Program
 	{
-		private DateTime diaActual;
 		//se inicializa el menu
 		public Program()
 		{
@@ -21,7 +21,7 @@ namespace Calendar
 		{
 			Day dia = new Day();
 			Calendar calendario = new Calendar();
-			int opcion = 0;
+			int opcion;
 			do
 			{
 				Console.WriteLine("--------------------  Calendario de Eventos ---------------------------");
@@ -34,6 +34,7 @@ namespace Calendar
 
 				opcion = Convert.ToInt32(Console.ReadLine());
 
+				//pide datos al usuario y los envia a la clase calendar para agregarlos
 				if (opcion == 1)
 				{
 					string nombre = "";
@@ -56,13 +57,20 @@ namespace Calendar
 				}
 				else if (opcion == 3)
 				{
-					diaActual = DateTime.Now;
+					DateTime diaActual = DateTime.Now;
 					mostrarDias(calendario.filtrarDias(diaActual.Month, diaActual.Year));
 					
 				}
 				else if (opcion == 4)
 				{
+					int mes;
+					int año;
 
+					Console.WriteLine("Digite el año a consultar: ");
+					año = Convert.ToInt32(Console.ReadLine());
+					Console.WriteLine("Digite el mes a consultar: ");
+					mes = Convert.ToInt32(Console.ReadLine());
+					mostrarDias(calendario.filtrarDias(mes, año));
 				}
 				else
 				{
@@ -71,13 +79,15 @@ namespace Calendar
 
 			} while (opcion > 0 && opcion < 5);
 
-		}
+		} 
 
 		public void mostrarDias(List<Event> calendario)
 		{
+			Console.WriteLine("-----------------------  Eventos del mes ------------------------------");
 			foreach (Event evento in calendario)
 			{
-				Console.WriteLine("El evento {0} esta agendado para el {1} de este mes. ", evento.Name,evento.StartDate.Day);
+				Console.WriteLine("El evento {0} esta agendado para el {1} del mes {2}. ", evento.Name,evento.StartDate.Day, evento.StartDate.Month);
+				Console.WriteLine("-----------------------------------------------------------------------");
 			}
 		}
 		
@@ -97,21 +107,38 @@ namespace Calendar
 		{
 			//instancia de la clase program para iniciarlo
 			Program programa = new Program();
-			//DateTime actual= DateTime.Now;
-			//Console.WriteLine(actual.Month.ToString());
-			/*Calendar calendario= new Calendar();
-			Calendar evento1= new Calendar("evento1",new DateTime(2022,12,01), new DateTime(2022,12,02));
-			Calendar evento2= new Calendar("evento2",new DateTime(2022,11,01), new DateTime(2022,11,02));
-			Calendar evento3= new Calendar("evento3",new DateTime(2022,12,01), new DateTime(2022,12,02));
-			Calendar evento4= new Calendar("evento4",new DateTime(2022,10,01), new DateTime(2022,10,02));
+
+			/*
+			 
+			//Instancia de la fecha actual
+			DateTime diaActual = DateTime.Now;
+
+			//Instancia de la clase Calendar
+			Calendar calendario= new Calendar();
+			Day dia= new Day();
+
+			//Se realiza la instancia de los nuevos eventos
+			Calendar evento1= new Calendar("evento1",new DateTime(2023,01,01), new DateTime(2023,01,02));
+			Calendar evento2= new Calendar("evento2",new DateTime(2022,01,01), new DateTime(2022,01,02));
+			Calendar evento3= new Calendar("evento3",new DateTime(2023,01,22), new DateTime(2023,01,22));
+			Calendar evento4= new Calendar("evento4",new DateTime(2023,02,22), new DateTime(2022,02,23));
+
+			//Se agregan los eventos al calendario
 			calendario.agregarEvento(evento1);
 			calendario.agregarEvento(evento2);
 			calendario.agregarEvento(evento3);
 			calendario.agregarEvento(evento4);
-			foreach (Calendar evento in calendario.filtrarDias(10, 2022))
-			{
-				Console.WriteLine("El evento {0} esta agendado", evento.Name);
-			}*/
+
+			//se obtiene los eventos del dia actual
+			programa.mostrarEventos(dia.mostrarEventos(calendario.mostrarEventos()));
+
+			//Se obtiene los dias con eventos en el mes
+			programa.mostrarDias(calendario.filtrarDias(diaActual.Month, diaActual.Year));
+
+			//Se obtiene los dias con eventos de un mes especificado por el usuario
+			programa.mostrarDias(calendario.filtrarDias(02, 2023));
+
+			*/
 
 		}
 	}
