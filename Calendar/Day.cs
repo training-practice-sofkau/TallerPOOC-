@@ -15,7 +15,5 @@ namespace Calendar
         {
             _days = new Dictionary<DateTime, List<Event>>();
         }
-
-
     }
 }
