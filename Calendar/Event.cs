@@ -36,5 +36,9 @@ namespace Calendar
             StartDate = startDate;
             EndDate = endDate;
         }
-    }
+
+		public Event()
+		{
+		}
+	}
 }
