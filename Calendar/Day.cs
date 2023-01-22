@@ -11,7 +11,7 @@ namespace Calendar
 	{
 		private List<Event> eventos = new List<Event>();
 		private List<Event> eventosFiltrados;
-		DateTime diaActual;
+		private DateTime diaActual;
 
 		public void agregarEvento()
 		{
@@ -36,7 +36,7 @@ namespace Calendar
 			diaActual = DateTime.Now;
 			foreach (Day evento in eventos)
 			{
-				if (evento.StartDate.Day == diaActual.Day)
+				if (evento.StartDate.DayOfYear == diaActual.DayOfYear && evento.StartDate.Year == diaActual.Year)
 				{
 					eventosFiltrados.Add(evento);
 				}
