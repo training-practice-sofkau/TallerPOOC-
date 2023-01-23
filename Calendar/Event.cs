@@ -30,11 +30,9 @@ namespace Calendar
             set { _endDate = value; }
         }
 
-        public Event(string name, DateTime startDate, DateTime endDate)
+        public Event()
         {
-            Name = name;
-            StartDate = startDate;
-            EndDate = endDate;
+            
         }
     }
 }
