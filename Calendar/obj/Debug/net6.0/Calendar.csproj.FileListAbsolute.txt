@@ -1,0 +1,15 @@
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.exe
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.deps.json
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.runtimeconfig.json
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.dll
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.pdb
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.csproj.AssemblyReference.cache
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.AssemblyInfoInputs.cache
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.AssemblyInfo.cs
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.csproj.CoreCompileInputs.cache
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.dll
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\obj\Debug\net6.0\refint\Calendar.dll
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.pdb
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.genruntimeconfig.cache
+C:\Users\juans\Desktop\Programacion\C# .NET\Sofka\ejericios\TallerPOOC-\Calendar\obj\Debug\net6.0\ref\Calendar.dll

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calendar
 {
-    internal class Event
+    abstract class Event
     {
         private string _name;
         private DateTime _startDate;
@@ -36,5 +36,9 @@ namespace Calendar
             StartDate = startDate;
             EndDate = endDate;
         }
-    }
+
+		public Event()
+		{
+		}
+	}
 }
