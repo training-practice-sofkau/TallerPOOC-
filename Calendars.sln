@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "Calendar\Calendar.csproj", "{73D6C843-00FE-41B4-8149-693C400A7BE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendar", "Calendar\Calendar.csproj", "{73D6C843-00FE-41B4-8149-693C400A7BE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

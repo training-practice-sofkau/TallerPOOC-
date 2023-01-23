@@ -1,0 +1,15 @@
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.exe
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.deps.json
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.runtimeconfig.json
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.dll
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\bin\Debug\net6.0\Calendar.pdb
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.csproj.AssemblyReference.cache
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.AssemblyInfoInputs.cache
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.AssemblyInfo.cs
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.dll
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\obj\Debug\net6.0\refint\Calendar.dll
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.pdb
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\obj\Debug\net6.0\Calendar.genruntimeconfig.cache
+C:\Users\javie\OneDrive\Documentos\Sofka\Taller1\TallerPOOC-\Calendar\obj\Debug\net6.0\ref\Calendar.dll

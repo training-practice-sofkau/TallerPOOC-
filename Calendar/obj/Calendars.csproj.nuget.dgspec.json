@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\javie\\OneDrive\\Documentos\\Sofka\\Taller1\\TallerPOOC-\\Calendar\\Calendar.csproj": {}
+    "C:\\Users\\javie\\OneDrive\\Documentos\\Sofka\\Taller1\\TallerPOOC-\\Calendar\\Calendars.csproj": {}
   },
   "projects": {
-    "C:\\Users\\javie\\OneDrive\\Documentos\\Sofka\\Taller1\\TallerPOOC-\\Calendar\\Calendar.csproj": {
+    "C:\\Users\\javie\\OneDrive\\Documentos\\Sofka\\Taller1\\TallerPOOC-\\Calendar\\Calendars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\javie\\OneDrive\\Documentos\\Sofka\\Taller1\\TallerPOOC-\\Calendar\\Calendar.csproj",
-        "projectName": "Calendar",
-        "projectPath": "C:\\Users\\javie\\OneDrive\\Documentos\\Sofka\\Taller1\\TallerPOOC-\\Calendar\\Calendar.csproj",
+        "projectUniqueName": "C:\\Users\\javie\\OneDrive\\Documentos\\Sofka\\Taller1\\TallerPOOC-\\Calendar\\Calendars.csproj",
+        "projectName": "Calendars",
+        "projectPath": "C:\\Users\\javie\\OneDrive\\Documentos\\Sofka\\Taller1\\TallerPOOC-\\Calendar\\Calendars.csproj",
         "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\javie\\OneDrive\\Documentos\\Sofka\\Taller1\\TallerPOOC-\\Calendar\\obj\\",
         "projectStyle": "PackageReference",
