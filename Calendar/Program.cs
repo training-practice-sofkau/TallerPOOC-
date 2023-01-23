@@ -11,14 +11,21 @@ namespace Calendar
 {
 	class Program
 	{
-		//se inicializa el menu
+		//se inicializa el menu y el manejo de excepciones 
 		public Program()
 		{
-			menu();
+			try
+			{
+				menu();
+			}catch (Exception)
+			{
+				Console.WriteLine("Dato invalido");
+			}
 		}
 
 		private void menu()
 		{
+			//Instancia de las clases Day y Calendar para usar sus metodos posteriormente 
 			Day dia = new Day();
 			Calendar calendario = new Calendar();
 			int opcion;
@@ -48,15 +55,18 @@ namespace Calendar
 					Console.WriteLine("Digite el fecha de final del evento en fomato AAAA/MM/DD: ");
 					fechaFinal = Convert.ToDateTime(Console.ReadLine());
 
+					//crea un nuevo evento y lo agrega al calendario
 					Calendar nuevoEvento = new(nombre, fechaInicio, fechaFinal);
 					calendario.agregarEvento(nuevoEvento);
 				}
 				else if (opcion == 2)
 				{
+					//ejecuta la funcion mostrarEventos la cual recibe una lista filtrada por dia de la lista de eventos del calendario
 					mostrarEventos(dia.mostrarEventos(calendario.mostrarEventos()));
 				}
 				else if (opcion == 3)
 				{
+					//Toma la fecha actual para filtrar la lista y mostrarla
 					DateTime diaActual = DateTime.Now;
 					mostrarDias(calendario.filtrarDias(diaActual.Month, diaActual.Year));
 					
@@ -66,10 +76,13 @@ namespace Calendar
 					int mes;
 					int año;
 
+					//Toma los datos del usuario para realizar el filtro por año y mes
 					Console.WriteLine("Digite el año a consultar: ");
 					año = Convert.ToInt32(Console.ReadLine());
 					Console.WriteLine("Digite el mes a consultar: ");
 					mes = Convert.ToInt32(Console.ReadLine());
+
+					//Muestra la lista filtrada por el mes y el año que el usuario digito
 					mostrarDias(calendario.filtrarDias(mes, año));
 				}
 				else
